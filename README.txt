@@ -1,6 +1,6 @@
-1. Terminalul are urmatoarele funcionalitati : 
+1. Shell functionalities : 
 
-   1. Comenzi implementate :
+   1. Commands :
    "cd",
   "help",
   "exit",
@@ -10,8 +10,8 @@
   "ls -F",
   "ls -l"
 
-2.Are implementat si history ( sageata sus , si iti va afisa comanda introdusa anterios , sau sageata jos etc..)
+2.Implemented history ( press arrow-up to browse to introduced lines, or arrow-down etc..)
 
-3. Pentru a il rula:  gcc +o main{.c} -lreadline
+3. Run with:  gcc +o main{.c} -lreadline
 
-acel readline , este o librarie , si altfel programul nu va fi compilat daca nu ii adaugi acel parametru
+readline is a must to run the program!!! , its used for history
